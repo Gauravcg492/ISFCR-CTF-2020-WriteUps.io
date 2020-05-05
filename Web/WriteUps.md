@@ -41,6 +41,7 @@
 	+ Get the correct SRN.
 
 # Efficient Storage
+
   + Open the Webpage
   + Inspect 
   + Find the hidden Link (There are 2 Links - Must warn the participants)
