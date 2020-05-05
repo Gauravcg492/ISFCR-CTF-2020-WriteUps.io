@@ -3,17 +3,23 @@
 # Existential Crisis
 
   + Inspect the page
+  <img src = "./meth3.png" alt = "See alt" />
   + See the alt of the image tag
   + Get the file name
+  <img src = "./Sol3.png" alt = "ctf{we_shall_meet_again}" />
   + Access the file
   + Copy the flag
+
 
 # Help!!!
 
  + Open the Webpage
  + Inspect 
  + Find the hidden Link (There are 2 Links - Must warn the participants)
+ <img src = "./Chall1.png" alt = "See the links" />
  + Read the flag - (Not too straight forward)
+ + The hint what you is not what you get
+ <img src = "./Flag1.png" alt = "CTF{MINDTHEGAP}" />
  + CTF{MINDTHEGAP}
 
 # Find ME!!!
@@ -24,8 +30,10 @@
 	+ look at robots.txt
 	+ Gives you hint to pes website with an apropriate request header
 	+ Navigate to the PESU website.
+  <img src = "./Pesu.png" alt = "pesu academy" />
 	+ Find the appropriate request to get user data based on SRN's.
 	+ Guess the correct SRN.
+  <img src = "./Sol.png" alt = "PES1201801503" />
 
 + Method 2	[Not the right way but still a pretty impressive method]
 	+ Use the scholarship document providied by college
