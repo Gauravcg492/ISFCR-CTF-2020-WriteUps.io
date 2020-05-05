@@ -44,7 +44,7 @@
 
   + Open the Webpage
   + Inspect 
-  + Find the hidden Link (There are 2 Links - Must warn the participants)
+  + Find the hidden Link [There are 2 Links - Must warn the participants]
   + Method 1
   	+ Website Link mentions compression.
   	+ Huffman coding is a commonly used lossless data compression algorithm.
