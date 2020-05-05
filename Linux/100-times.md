@@ -26,5 +26,5 @@
 # Note: 
  + Initially only binary executables were supposed to be handed out, not python scripts
  + However, due to incompatibility with various architectures and lack of cloud servers to host Linux challenges, we ended up giving the original python scripts. 
- + Hence for this particular case, a python script could've also been written to get the desired output. 
+ + Hence for this particular case, a python script ( look up OS commands with python) could've also been written to get the desired output. 
  + It is highly advised that you learn shell scripting to tackle such problems in the future.
