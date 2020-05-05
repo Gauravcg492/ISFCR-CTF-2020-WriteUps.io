@@ -1,3 +1,5 @@
+# WEB - SQLi Challenges
+
 # Challenge 1 - Try to login
 	+ main file used = login1.php
 	+ solution: anything' OR 1=1 -- //
