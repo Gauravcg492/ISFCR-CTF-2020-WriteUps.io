@@ -1,10 +1,6 @@
-# ISFCR-CTF-2020-WriteUps
+# List Of Challenges
 
-Official write ups from the organizers of the Capture the flag event held by the ISFCR team.
-
-## List Of Challenges
-
-### Web - General
+## Web - General
 
 +	<a href = "/Web/Existential_Crisis">Existential Crisis</a>
 +	<a href = "/Web/Help"></a>
