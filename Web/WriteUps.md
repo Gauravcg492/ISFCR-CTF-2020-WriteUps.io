@@ -1,3 +1,5 @@
+#WEB - CHALLENGES
+
 # Existential Crisis
 
   + Inspect the page
@@ -50,6 +52,7 @@
 
 # Get It!!!
 
+## GET it was designed intentionally to have two methods to solve.
 + Method 1 
 	+ Crash the server by passing invalid parameters.
 	+ Due to absence of try catch on server side.
@@ -65,3 +68,47 @@
 	+ Pass the parameters get the request.
 	
 # Charity is Important
+
+## Charity is important was not supposed to be solved by Method - 1 but it was a bug on our side so...
+
++ Method 1
+  + Crash the server by passing invalid parameters.
+  + Due to absence of try catch on server side.
+  + Flask code will spill on error logs.
+  + grep the flag or take the flag from error logs.
+
++ Method 2
+  + Notice the console logs as soon as you click the text area to place your order.
+  + The Request are not created at all hence cannot be intercepted by Burps.
+  + But the website asks you to Post your order for charity.
+  + The parameters are logged by default as invalid parameters.
+  + Upon inspection of the source you can notice that you have been asked to construct the request and the formdata and pass it yourself.
+  + Therefore the challenge requires you to donate a rounded up sum of the charity amount to the respective organization.
+
+# Place Your Order
+
++ Go to challenge3 on the website.
++ Step 1 - Fixing localhost
+  + localhost will not work and has to be changed to the site url or location.hostname
+  + This will make sure that the request get's sent
+
++ Step 2
+  + Fill in the parameters
+  <img src = "./Franc-Flage.png" alt = "Website Form" />
+  + Country = France (Case insensitive - Handled by backend)
+  + How many colors : 11 (as requested on the website)
+
++ Step 3
+  + Assigning Delivery date is of atmost importance
+  + The date format has wantedly been interchanged in the backend inorder to confuse challengers.
+  + Which was later revealed as a hint.
+  + It explicitly requires the date to be 2 days after the current date
+  + Hence setting the date in the correct format involves trying 3 different permutations.
+
++ Step 4
+  + Tell them you speak french
+  +  Set the accept language parameter to fr or fr-ch
+  <u style = "color:blue">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language</u>
+
++ Completing the above 4 steps will give you the flag.
+
