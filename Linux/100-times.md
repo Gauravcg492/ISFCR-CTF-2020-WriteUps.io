@@ -8,7 +8,8 @@
 		+ Feed the output of c2 as input to c1
 
 # Solution:
- + 	#!/bin/sh 
+```
+ 	#!/bin/sh 
    	LIMIT=100
 	INP2=$(python p1.py<./-)
 	echo "$INP2" > "inp2"
@@ -21,6 +22,7 @@
 		INP2=$(python p1.py <inp1)
 		echo "$INP2" > "inp2"
 	done
+```
 # Note: 
  + Initially only binary executables were supposed to be handed out, not python scripts
  + However, due to incompatibility with various architectures and lack of cloud servers to host Linux challenges, we ended up giving the original python scripts. 
