@@ -6,9 +6,9 @@
  + Find the address of this instruction and place it within the brackets of 'ctf{}'
 
 # Register nomenclature
-	+ in x86 architecture, registers are used with the following nomenclature
-	+ ![](GPRs.png)
-	+ credits: Lecture slides for Problem Solving Skills for Engineers - I by Narasimha Datta and Channa Bankapur 
+ + in x86 architecture, registers are used with the following nomenclature
+ + ![](GPRs.png)
+ + credits: Lecture slides for Problem Solving Skills for Engineers - I by Narasimha Datta and Channa Bankapur 
 
 # lea (load effective address) instruction:
  + the lea instruction works as follows:
