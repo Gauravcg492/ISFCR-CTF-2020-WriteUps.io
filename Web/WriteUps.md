@@ -146,7 +146,7 @@ Just hope you can get it this time.
 + Go to networks tab and select the request.
 + You can choose an option called edit and send.
 + There you can directly edit the value of the Post Request.
-<img src = "./v2.0.png" alt = "Website Form" />
+<img src = "./v2.0.PNG" alt = "Website Form" />
 
 # Let's Deduce
 ## Description
