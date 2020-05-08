@@ -9,4 +9,4 @@ Official write ups from the organizers of the Capture the flag event held by the
 + <a href = ".\Web-SQLi\WriteUps">WEB-SQLi </a>
 + <a href = ".\Crypto\WriteUps">Cryptography </a>
 + <a href = ".\Steganography\WriteUps">Steganography </a>
-+ <a href = ".\Forensics\WriteUps">Steganography </a>
++ <a href = ".\Forensics\WriteUps">Forensics </a>
