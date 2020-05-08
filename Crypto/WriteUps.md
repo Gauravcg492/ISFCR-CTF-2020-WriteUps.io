@@ -4,8 +4,8 @@
 
 ## Answer:
 
-+When you solve the equation you get the answer as 64. 
-+[Tutorial](http://tutorial.math.lamar.edu/Solutions/Alg/SolveExpEqns/Prob7.aspx)
++ When you solve the equation you get the answer as 64. 
++ [Tutorial](http://tutorial.math.lamar.edu/Solutions/Alg/SolveExpEqns/Prob7.aspx)
 + b = 4, c = 6
 + From this, you need to infer that the encryption used is Base 64
 + You need to apply the Base 64 encryption to the input string which is hex
