@@ -121,3 +121,43 @@
 
 + Completing the above 4 steps will give you the flag.
 
+# Viewer 1.0
+## Description
+I have created a webpage called Viewer where you select what you want to view.
+If you need, just select the flag option from the dropdown.
+
+Oh God!! I forgot to add the option 'flag', I hope you can figure something out.
++ One can see that upon clicking the button the url changes with addtional parameters.
++ This indicates that a get request is being used.
++ Here we can notice that a file parameter is used which takes the value from the dropdown.
++ Hence placing file=flag instead of default value will yield the flag.
+
+# Viewer 2.0
+## Description
+Glad you could get the flag in the previous challenge.
+Well I felt that I wasn't using the right 'method'.
+So I changed it now and I think it is much safer.
+Here is the refined webpage.
+Oh I forgot to add the 'flag' dropdown again.
+Just hope you can get it this time.
++ This is same as the previous challenge but it used POST request instead of GET.
++ Since we can't change the value directly, we can use an intercepter such as BurpSuite and ZAP.
++ Alternatively in Mozilla Firefox you can directly edit the request which was sent.
++ Go to networks tab and select the request.
++ You can choose an option called edit and send.
++ There you can directly edit the value of the Post Request.
+<img src = "./v2.0.png" alt = "Website Form" />
+
+# Let's Deduce
+## Description
+Hey I'm the creator of the famous social media app Spindle.
+I received info that a malicious user has a profile in our site.
+My recon team were able to scavenge his old passwords.
+Can you login to my site with his id?
++ We needed to get the login credentials of the user.
++ We already had the txt file containing the password of his other social media sites.
++ Here we can see a particular pattern used by the user.
++ We can then extrapolate that to get the username and password in our site.
++ Hence we get 5P1NDL3V1RU5 and v1ru5@spin.
++ Logging in with this credentials will give us the flag.
+
