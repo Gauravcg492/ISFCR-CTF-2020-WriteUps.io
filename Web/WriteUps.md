@@ -45,10 +45,11 @@
   + Open the Webpage
   + Inspect 
   + Find the hidden Link [There are 2 Links - Must warn the participants]
+
   + Method 1
   	+ Website Link mentions compression.
   	+ Huffman coding is a commonly used lossless data compression algorithm.
-  	+ Use Huffman coding to get the flag.
+  	+ Use Huffman coding to get the flag.<br/>
   	<u style = 'color:blue'>https://www.dcode.fr/huffman-tree-compression</u>
 
   + Method 2
