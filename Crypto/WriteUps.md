@@ -54,6 +54,18 @@ The 3rd letter of each of the first 6 languages concatenated together makes the 
 + Convert integer to ascii.
 + To get the flag.
 
+# The National Treasure
+
+## Description
+
+Let's have a little recap of one of the cult classics.
+Here we have an Ottendorf Cipher and we will use the same Benjamin Franklin's Silence Dogood letters (https://www.kalh.org/silence.pdf).
+Can you decrypt it just like the movies?
+
++ A video was given as a reference for understanding the Ottendorf Cipher.
++ According to the video, the first number indicated letter/page number, second indicated the line number and third indicated the position of the letter on that line.
++ Hence all we had to do was manually decipher each line in the cipher.txt file.
+
 # Lots!!!
 
 + Method 1 [Before Hints]
@@ -68,4 +80,22 @@ The 3rd letter of each of the first 6 languages concatenated together makes the 
 	+ "What has more caesar ciphers than caesar ciphers itself" - [Could have directly said it was a vigenere cipher]
 	+ "First of caesar not just caesar is a key to your problem" - JULIUS is the key
 	+ Decrypt Vigenere Cipher to get the answer with key JULIUS.
-	
+
+# Bobby and Alice
+
+## Description
+
+Bobby to avenge the loss from the previous CTF approaches Alice who is a RSA expert.
+She comes up with a cipher m and gives it to Bobby.
+Can you decrypt that message ?
+
+Learn about RSA here: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+
++ We know that the Cipher given was RSA based on the description.
++ Here the value of 'm' was actually the cipher 'c' which was mentioned in wikipedia.
++ We can see that Alice had given the private key as well (the mistake!!).
++ All we needed to do was use the formula mentioned in the wikipedia
++ The message is also in long int. Hence we use long_to_bytes() from Crypto.Util.number.
++ The python code used to decode
+<img src = "./b&a.PNG" alt = "Website Form" />
+
