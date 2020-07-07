@@ -2,9 +2,6 @@
 
 Official write ups from the organizers of the Capture the flag event held by the ISFCR team.
 
-## Website Down for maintenance.
-
-
 ## List Of Challenges
 
 + <a href = ".\Web\WriteUps">WEB - GENERAL </a>
