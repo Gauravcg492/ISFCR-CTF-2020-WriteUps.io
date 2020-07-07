@@ -1,7 +1,5 @@
 # Steganography Challenges
 
-## Website down for maintenance.
-
 
 ## Text Challenges
 #### There, there

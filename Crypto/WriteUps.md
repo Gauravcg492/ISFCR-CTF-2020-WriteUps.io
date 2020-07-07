@@ -1,7 +1,5 @@
 # Cryptography Challenges
 
-## Website down for Maintenance.
-
 # Shouldn’t have skipped algebra class Pt. 1 
 
 ## Answer:

@@ -1,7 +1,5 @@
 # Forensics
 
-## Website Down for Maintenance
-
 # Let's Capture
 ## Description
 Here is a wireshark recording of the session.

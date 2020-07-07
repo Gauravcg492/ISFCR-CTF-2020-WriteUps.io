@@ -1,7 +1,5 @@
 # WEB - CHALLENGES
 
-## Website down for maintenance.
-
 
 # Existential Crisis
 
