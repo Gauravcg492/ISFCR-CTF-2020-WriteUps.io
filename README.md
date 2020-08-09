@@ -2,11 +2,13 @@
 
 Official write ups from the organizers of the Capture the flag event held by the ISFCR team.
 
-## List Of Challenges
+## CTF 1.0
 
-+ <a href = ".\Web\WriteUps">WEB - GENERAL </a>
-+ <a href = ".\Linux\WriteUps">Linux </a>
-+ <a href = ".\Web-SQLi\WriteUps">WEB-SQLi </a>
-+ <a href = ".\Crypto\WriteUps">Cryptography </a>
-+ <a href = ".\Steganography\WriteUps">Steganography </a>
-+ <a href = ".\Forensics\WriteUps">Forensics </a>
++ <a href = ".\CTF1.0\README">Proceed To WriteUps</a>
++ Contributors
+
+## CTF 2.0
+
++ <a href = ".\CTF2.0\README">Proceed To WriteUps</a>
++ Contributors
+
