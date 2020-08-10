@@ -4,7 +4,7 @@
 ```
 Please don't take this meme too seriously, there are other things to consider here...
 ```
-+ The link given in the GIF is given so that the partcipants can relax a bit while solving the challenges(By the way here's the link: https://bit.ly/2EEQHU6)...xD
++ The link given in the GIF is given so that the partcipants can relax a bit while solving the challenges(By the way here's the link: https://bit.ly/2EEQHU6) xD
 + On looking at the metadata of GIF, using
 ```bash
 exiftool way.gif
