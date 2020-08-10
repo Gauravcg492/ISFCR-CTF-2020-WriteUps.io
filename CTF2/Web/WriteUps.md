@@ -24,7 +24,7 @@
 	<img src = "./Files/Elliot.png" alt = "Elliot Challenge"/>
 * A classic reference to Mister Robot (TV series).
 * Based on the reference you may navigate to the robots.txt page of the website.
-	<img src = "./Files/Robot.png" alt = "Robots.txt"/>
+	<img src = "./Files/Robots.png" alt = "Robots.txt"/>
 * By navigating to the  /.elli0t_fl4g end point you will see some text.
 	<img src = "./Files/ElliotFlag.png" alt = "Elliot Flag "/>
 * The given text is a JWT token.It can be identified by the three dots injeced inbetween the text.
@@ -38,13 +38,58 @@
 ---
 
 ## Messi
-
+* A social engineering challenge wherein you analyse all the clues in the webpage to guess the password.
+* Warning
+	* Clues were misleading hence sorry for the inconvenience.
+	* The Hint stated : Mac's won't go good with colon's but T's.
+	* This should have cleared all the confusion.
+* Once you navigate to the web page and like Messi.
+* You will be directed to the following page.
+	<img src = "./Files/Messi.png" alt = "Messi Chall"/>
+* Click on Forgot Password.
+	<img src = "./Files/FP.png" alt = "Forgot PAssword"/>
+* Based on the regex and the clues you can guess what the regex means.
+* The regex is for Mac addresses in general.
+	<img src = "./Files/Mac.png" alt = "Mac address"/>
+* Based on the hint we can come to the conclusion of replacing all the ':' with 'T'.
+* Doing this will generate a flag.
+* Example Flag : 00T14T22T01T23T45
+* Any valid mac address according the regex with the colon replaced by T's will work.
+* Upon entering the right password.
+	<img src = "./Files/MessiFlag.png" alt = "Messi flag" />
 ---
 
 ## Nadal
 
+* Browse the page to the section on Nadal.
+	<img src = "./Files/Nadal.png" alt = "Nadal Section" />
+* Warning :
+	* While coding up the backend I forgot to tie the follow button to the corresoponding endpoint.
+	* This error was corrected immediately in the form a hint stating the request types as well as where the request had to be sent.
+* Based on the last two lines it can be inferred that multiple request have to be sent to the webserver with appropriate language headers.
+* Since the country has been mentioned it is country specific.
+	<img src="req1.png" width="425"/> <img src="req2.png" width="425"/> 
+	<img src="req3.png" width="425"/> <img src="req4.png" width="425"/> 
+* Combining all the recieved bits of the flag in the order mentioned by Nadal will generate the flag.
  
 ---
+
+## I'm Back
+
+* Navigae to the page.
+* Click on the get flag button.
+* You will notice an error.
+	<img src = "./Files/error.png" alt = "error"/>
+* You may open the Main_JS file where the error is.
+* If you open the Main_JS File you will observe the following.
+[Main_JS](Files/Main_JS.js)
+* The Given code snipppet is a JSFuck script.
+* Converting it to JS.
+* You can get the flag.
+	<img src = "./Files/JS1.png" alt = "Js conversion" width="425"/> <img src = "./Files/JS1.png" alt = "Js conversion" width="425"/>
+
+___
+
 ## Restricted Entry
 
 ### Challenge Description
