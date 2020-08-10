@@ -75,3 +75,24 @@ On cross-comparing the list with the actual list of prime numbers between 9999 a
 
 Place it inside ctf{} to obtain the flag as **ctf{70179}**
 
+# Dit Dah Bit
+Challenge Description
+------
+All is not what it seems in this image.
+
+Hints
+------
+```
+What's the most common form of human communication with two characters?
+```
+
+Solution
+-------
+Reading the LSB of pixels, we get 
+```
+11000111101100011110111111010
+```
+
+According to [Wikipedia](https://en.wikipedia.org/wiki/Morse_code#Letters,_numbers,_punctuation,_prosigns_for_Morse_code_and_non-English_variants) we can translate this into morse code as **CTF(GIMMEGIMMEMORE)**
+Since we know that the flag format is ctf{<flag>}, and that the Morse code for parentheses doesn't specify what kind of parentheses they are, we can assume the flag to be **ctf{gimmegimmemore}**
+
