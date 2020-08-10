@@ -6,6 +6,8 @@ Challenge 1
 
 Some fool lost the flag in the logs. Find it ASAP!
 
+[logs][Files/logs]
+
 Points: 50
 
 Solution
@@ -13,7 +15,7 @@ Solution
 
 `cat logs | grep User:`
 
-Flag: `CTF{1m_W4y_to0_l4azy_2_50lv3}`
+Flag: `CTF{1m_W4y_to0_l4zy_2_50lv3}`
 
 ---
 
@@ -21,6 +23,8 @@ Challenge 2
 -----------
 
 Leonardo is trying to tell you something. What is it?
+
+[Leo's Message](Files/Leo's_message.tar.gz)
 
 Points: 100
 
@@ -37,6 +41,8 @@ Challenge 3
 -----------
 
 The flag is in the given text file. Can you find it?
+
+[File](Files/spaces)
 
 Points: 100
 
@@ -63,6 +69,8 @@ Challenge 6
 -----------
 
 This binary was supposed to print the flag but it doesn't for some reason. Can you get the flag anyway?
+
+[Binary](Files/main)
 
 Points: 50
 
