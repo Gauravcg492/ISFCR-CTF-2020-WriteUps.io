@@ -167,7 +167,7 @@ Flag: CTF{Br41Nf*Ck_1s_R3alLy_W31rD}
 
 ## After a long time
 ```
-There's something with this image... but which does not appear, just passes by..
+There's something with this image... which does not appear, just passes by..
 ```
 
 + binwalk on the file would show that it has 7z archive data with it.
