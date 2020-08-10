@@ -1,15 +1,34 @@
 # General - Web
 
-## Nadal
-
----
 
 ## Lebron
 
+* The challenge asks you to Help Lebron.
+* Navigate to the help button in the website beneath a set of quotes by lebron
+	<img src = "./Files/Lebron.jpg" alt = "Web Page"/>
+* Click the Help button.
+* Intercept the request being sent through Burpsuite or by observing the network tab on the browser.
+* You may use postman or curl (Any similar tools) to make a request to the webserver.
+* Notice the response headers.
+	<img src = "./Files/Request.png" alt = "Postman Request"/>
+* We can observe a content Location header.
+* Sending a get Request to the content-Location (/l3bfl4g) or navigating to the page gives the flag.
+	<img src = "./Files/LebFlag.png" alt = "Flag"/>
+
 ---
+## Nadal
+
+* 
+---
+
 
 ## Elliot Alderson
 
+* The Challenge asks you to befriend Elliot Alderson.
+* Once you click the green tick.You will be directed to the below page :
+	<img src = "./Files/"/>
+* A classic reference to Mister Robot (TV series).
+* Based on the
 ---
 
 ## Messi
@@ -32,6 +51,8 @@ Viewing the source code almost always helps.
 
 The script tag in the body of the HTML file shows us that it's fetching a local storage item called authKey, and passing it to the atob() function, which used to get plaintext from BASE64, and comparing it to "admin". Therefore, we encode "admin" in Base64 and store it in the local storage key value pair. This gets us the key ***CTF{W3ak_@uth3nt1cat10n}*** 
 
+---
+
 ## Message from the Future
 
 ### Challenge Description
@@ -47,3 +68,5 @@ Again, viewing the source code works.
 ### Solution
 
 The script tag in the body of the HTML file shows us a few things. First, it's setting a cookie called 'userType' to 'normal'. This comes in handy later on. The code then makes a post request to /futuremessage, which we need to emulate. However, since we need to use an iPhone 30, we change the User-Agent header of the request to iPhone 30. This then tells us that we don't have admin privileges to view the code. Inspecting the POST function used in the source code, we can see that one of the headers sent is 'cookie' which passes the site's cookies. The cookie was initially called userType set to normal. When we make the POST request, we set a cookie header, and pass "userType=admin" to emulate being an admin. And voila, you get the key - ***CTF{W3lc0m3_t0_th3_futur3}***
+
+---
