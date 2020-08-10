@@ -6,7 +6,7 @@ Please don't take this meme too seriously, there are other things to consider he
 ```
 + On looking at the metadata of GIF, using
 ```bash
-exiftool way.gfif
+exiftool way.gif
 ```
 one would find some numbers at the "Comments" part in the Format: UTF-16
 + Converting it from UTF-16->UTF-8->To Text would do the trick.
