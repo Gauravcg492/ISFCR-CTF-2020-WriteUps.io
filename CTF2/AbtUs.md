@@ -10,4 +10,4 @@ List of Contributors
 | Abdur R Hatim    | melancarly       | hatim3121@gmail.com        |                                     |
 | Bhargav SNV      | RudeBoy          | bhargavsnv100@gmail.com    |                                     |
 | Ashwin Alaparthi | DuckDuckGo       | ashwin.alaparthi@gmail.com |                                     |
-| Risiraj Dey      | RDxR10           | risirajdey@gmail.com       | (RDxR10)[https://github.com/RDxR10] |
+| Risiraj Dey      | RDxR10           | risirajdey@gmail.com       | [RDxR10](https://github.com/RDxR10) |
