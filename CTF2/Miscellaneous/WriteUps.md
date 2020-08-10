@@ -6,6 +6,8 @@ Challenge 1
 
 Find the flag from the given file.
 
+[File](Files/linus.c)
+
 Points: 50
 
 Solution
@@ -22,6 +24,8 @@ Challenge 2
 
 Find the flag in the given git repo.
 
+[Repo](Files/Go.tar.gz)
+
 Points: 100
 
 Solution
@@ -37,6 +41,8 @@ Challenge 3
 -----------
 
 Find the flag in the given git repo.
+
+[Repo](Files/Go2.tar.gz)
 
 Points: 100
 
@@ -59,6 +65,8 @@ Challenge 4
 
 Loot the flag!
 
+[Store](Files/store.go)
+
 Points: 200
 
 Solution
@@ -75,6 +83,8 @@ Challenge 5
 
 Dylan is trying to tell you something. What is it?!
 
+[Message](Files/Flag.jpg)
+
 Points: 50
 
 Solution
@@ -90,6 +100,8 @@ Challenge 6
 -----------
 
 Alyssa P Hacker sends secret messages to Ben Bitdiddle through vague binaries. Can you figure out what this one says?
+
+[Binary](Files/main)
 
 Points: 150
 
@@ -112,6 +124,8 @@ Challenge 7
 -----------
 
 Take a step back. You're probably frustrated enough with life. Points: 100
+
+[Perspective](Files/Perspective.tar.gz)
 
 Solution
 --------
@@ -140,9 +154,31 @@ Challenge 8
 Let's mess with your mind.  
 Points: 150
 
+[M!ND](Files/WHAT_IS_THIS_CRAP)
+
 Solution
 --------
 
 Decrypt from Brainf*ck to text and run code in play.golang.org
 
 Flag: CTF{Br41Nf*Ck_1s_R3alLy_W31rD}
+
+---
+
+## After a long time
+```
+There's something with this image... which does not appear, just passes by..
+```
+
++ binwalk on the file would show that it has 7z archive data with it.
++ Extracting it using 7z would give us two text files. One of them has a fake flag(FileA), while the other one has the actual flag(FileB)
++ Solution
+```bash
+binwalk img.jfif
+7z e img.jfif
+```
++ Note: Format had to be changed(enclosed within CTF{} and not flag{})
++ Flag:
+```
+CTF{alright_you_have_taken_too_much_time}
+```

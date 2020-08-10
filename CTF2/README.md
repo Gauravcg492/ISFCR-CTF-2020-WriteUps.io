@@ -11,6 +11,5 @@ PESU - CTF - WriteUps
 * <a href = ".\Cryptography\WriteUps">Cryptography</a>
 * <a href = ".\Steganography\WriteUps">Steganography</a>
 * <a href = ".\Miscellaneous\WriteUps">Miscellaneous</a>
-* <a href = ".\AbtUs">Contributors</a>
 
 

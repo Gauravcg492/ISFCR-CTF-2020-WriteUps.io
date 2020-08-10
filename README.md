@@ -5,10 +5,10 @@ Official write ups from the organizers of the Capture the flag event held by the
 ## CTF 1.0
 
 + <a href = ".\CTF1">Proceed To WriteUps</a>
-+ Contributors
++ <a href = ".\CTF1\AbtUs">Contributors</a>
 
 ## CTF 2.0
 
 + <a href = ".\CTF2">Proceed To WriteUps</a>
-+ Contributors
++ <a href = ".\CTF2\AbtUs">Contributors</a>
 
