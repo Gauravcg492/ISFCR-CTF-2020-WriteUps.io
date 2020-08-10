@@ -89,7 +89,8 @@
 * The Given code snipppet is a JSFuck script.
 * Converting it to JS.
 * You can get the flag.
-	<img src = "./Files/JS1.png" alt = "Js conversion"/> <img src = "./Files/JS1.png" alt = "Js conversion"/>
+	<img src = "./Files/JS1.png" alt = "Js conversion"/> 
+	<img src = "./Files/JS2.png" alt = "Js conversion"/>
 
 ___
 
