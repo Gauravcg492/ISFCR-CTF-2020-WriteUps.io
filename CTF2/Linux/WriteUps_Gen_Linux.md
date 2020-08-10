@@ -55,6 +55,8 @@ with open("flag","r") as f:
         print(chr(i))
 ```
 
+Flag: `CTF{1_Se3_y0u}`
+
 ---
 
 Challenge 6
