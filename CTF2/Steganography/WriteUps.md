@@ -286,7 +286,7 @@ Use the website [here](https://stylesuxx.github.io/steganography/) or any image 
 
 
 
-# myymonologue
+# mymonologue
 Challenge Description
 ------
 weusedaspecialwayofhidingcharactersinthischallenge.findit.lookbetweenthelines.readsome[greatliterature/rambling](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/monologue.txt)
