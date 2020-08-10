@@ -1,3 +1,6 @@
+Miscellaneous
+=============
+
 Challenge 1
 -----------
 
