@@ -1,7 +1,7 @@
 # Steganography Challenges
 # Can You Read Me?
 Challenge Description
-======
+------
 Mr. Cuddles is a master of psychological manipulation and is probably involved in more crimes than Macavity.
 He's hiding something.
 Can you read between those [cute eyes](https://github.com/hat-im/ISFCR-Stegano-Writeups/blob/master/Can%20You%20Read%20Me/mr_cuddles.jpg)?
@@ -13,7 +13,7 @@ Reading helps make things easier to understand
 ```
 
 Solution
-======
+------
 Opening the file in a hex editor (or even a text editor) will show you the following text at the end of the file:
 ```
 psst,
@@ -24,7 +24,7 @@ Thus we have obtained the flag as **ctf{2228333}**
 
 # Composite Files
 Challenge Description
-======
+------
 I'm hiding
 I'm not your prime suspect
 I'm not what you think I am
@@ -42,7 +42,7 @@ Can you determine the type of file purely from the content?
 ```
 
 Solution
-======
+------
 Run the following command on a Linux terminal:
 ```
 :- $ file prime_candidate.pdf
