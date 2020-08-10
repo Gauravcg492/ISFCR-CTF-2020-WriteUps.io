@@ -4,7 +4,7 @@ Challenge Description
 ------
 Mr. Cuddles is a master of psychological manipulation and is probably involved in more crimes than Macavity.
 He's hiding something.
-Can you read between those [cute eyes](https://github.com/hat-im/ISFCR-Stegano-Writeups/blob/master/Can%20You%20Read%20Me/mr_cuddles.jpg)?
+Can you read between those [cute eyes](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/mr_cuddles.jpg)?
 
 Hint
 ------
@@ -33,6 +33,8 @@ I'm not what you think I am
 
 P.S. don't forget to enclose your file in ctf{}
 eg: ctf{28392}
+
+[File](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/prime_candidate.pdf)
 
 Hints
 ------
@@ -84,6 +86,7 @@ Challenge Description
 ------
 All is not what it seems in this image.
 
+[File](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/la_dit_dah_di_da_dee_day_oh.png)
 Hints
 ------
 ```
@@ -105,7 +108,7 @@ Since we know that the flag format is ctf{<flag>}, and that the Morse code for p
 # Goodbye, Everybody
 Challenge Description
 ------
-I can't open this page for some reason and it keeps crashing it's really frustrating really please check it out [here](https://github.com/hat-im/ISFCR-Stegano-Writeups/blob/master/Goodbye%2C%20Everybody/my_home.html)
+I can't open this page for some reason and it keeps crashing it's really frustrating really please check it out [here](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/my_home.html)
 
 Hints
 ------
@@ -149,7 +152,7 @@ Which yields the flag as **ctf{13273}**
 Challenge Description
 ------
 There's something paranormal about this audio, can you find it?
-[head_and_shoulders.wav](https://github.com/hat-im/ISFCR-Stegano-Writeups/blob/master/Never%20Look%20In%20The%20Comments/head__shoulders.wav)
+[head_and_shoulders.wav](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/head__shoulders.wav)
 
 Hints
 ------
@@ -198,50 +201,24 @@ Looking at the comments field gives us the flag which is **ctf{392812}**
 # Squashed Pizza
 Challenge Description
 ------
-There's something paranormal about this audio, can you find it?
-[head_and_shoulders.wav](https://github.com/hat-im/ISFCR-Stegano-Writeups/blob/master/Never%20Look%20In%20The%20Comments/head__shoulders.wav)
+One time I ordered a pizza and when I got it it was all crushed and flattened.
+The I ordered digital artwork and it seems even they aren't immune to it.
+Can you fix my beautiful [Instagram post](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/pixelopia.png)??
 
 Hints
 ------
 ```
-All files come with something more than their contents.
-```
-```
-First rule of YouTube, never check the comments.
-
-This is not YouTube.
+Are Instagram posts in the same aspect ratio as this file? What ratio are they usually in?
 ```
 
 Solution
 ------
-Using [an online tool](https://www.metadata2go.com/) to view the metadata results in:
-```
-File Name           head_&_shoulders.wav 
-File Size           13 MB 
-File Type           WAV 
-File Type           Extension wav 
-Mime Type           audio/x-wav 
-Encoding            Microsoft PCM 
-Num Channels        2 
-Sample Rate         44100 
-Avg Bytes Per Sec   176400 
-Bits Per Sample     16 
-Title               Head & Shoulders 
-Product             Audio Diaries: 2003 
-Artist              Wayne Kerr 
-Comment             ctf{392812} 
-Date Created        2003 
-Genre               N/A 
-Duration            0:01:19 
-Category            audio 
-Raw Header          52 49 46 46 F4 C8 D3 00 57 41 56 45 66 6D 
-                    74 20 10 00 00 00 01 00 02 00 44 AC 00 00 
-                    10 B1 02 00 04 00 10 00 64 61 74 61 70 C7 
-                    D3 00 04 00 F4 FF 05 00 03 00 F4 FF F3 FF 
-                    04 00 06 00 00 00 08 00 
-```
+The key to this challenge is to take the pixels from a 25000x10 image into a 500x500 image. 
+Using a python script such as the one [here](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/resizer.py), we get the final image as
 
-Looking at the comments field gives us the flag which is **ctf{392812}**
+![final solution](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/random.png)
+
+Giving us the flag, **ctf{84512}**
 
 
 
@@ -263,7 +240,7 @@ If you need it, the password is the largest prime number formed by the digits {4
 
 Solution
 ------
-This challenge is an extension of [an earlier challenge](https://github.com/hat-im/ISFCR-Stegano-Writeups/tree/master/Can%20You%20Read%20Me). Given the digits in the hints, we find that the biggest prime combination is 8888888888888747.
+This challenge is an extension of [an earlier challenge](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/head__shoulders.wav). Given the digits in the hints, we find that the biggest prime combination is 8888888888888747.
 
 Now we use [DeepSound](http://jpinsoft.net/deepsound), a steganography tool to extract the encoded file.
 
@@ -288,9 +265,9 @@ One of the previously solved challenges contains this key. ANY one of them.
 
 Solution
 ------
-This challenge is another extension of [this challenge](https://github.com/hat-im/ISFCR-Stegano-Writeups/tree/master/Can%20You%20Read%20Me) and also [this one](https://github.com/hat-im/ISFCR-Stegano-Writeups/tree/master/We%20Need%20To%20Go%20Deeper%20Part%20I)
+This challenge is another extension of Part I and also [this one](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/head__shoulders.wav)
 
-After extracting the [hidden file]() from the audio track, we go through the file to find that two different fonts are being used in the text. We simply concatinate all the text in Courier New font and that forms the string: BIPWNMKSRTFJDHP (in uppercase).
+After extracting the [hidden file](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/ctf%7B38734%7D.pdf) from the audio track, we go through the file to find that two different fonts are being used in the text. We simply concatinate all the text in Courier New font and that forms the string: BIPWNMKSRTFJDHP (in uppercase).
 
 Placing the letters inside the ctf{} gives us the flag, **ctf{BIPWNMKSRTFJDHP}**.
 
@@ -301,6 +278,8 @@ Challenge Description
 ------
 The easiest Steganography challenge you can Google
 
+[File](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/hats.png)
+
 Solution
 ------
 Use the website [here](https://stylesuxx.github.io/steganography/) or any image steganographer available online or offline to obtain the flag as **ctf{1195971149}**
@@ -310,7 +289,7 @@ Use the website [here](https://stylesuxx.github.io/steganography/) or any image 
 # myymonologue
 Challenge Description
 ------
-weusedaspecialwayofhidingcharactersinthischallenge.findit.lookbetweenthelines.readsome[greatliterature/rambling](https://github.com/hat-im/ISFCR-Stegano-Writeups/blob/master/mymonologue/monologue.txt)
+weusedaspecialwayofhidingcharactersinthischallenge.findit.lookbetweenthelines.readsome[greatliterature/rambling](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/monologue.txt)
 
 Hints
 ------
