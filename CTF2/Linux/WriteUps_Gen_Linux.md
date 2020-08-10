@@ -6,7 +6,7 @@ Challenge 1
 
 Some fool lost the flag in the logs. Find it ASAP!
 
-[logs][Files/logs]
+[logs](Files/logs)
 
 Points: 50
 
