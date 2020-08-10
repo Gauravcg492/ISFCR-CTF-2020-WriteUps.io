@@ -272,3 +272,52 @@ When we enter the password, we see that the encoded file is called
 ctf{38734}.pdf
 ```
 Which gives us the key: **ctf{38734}**
+
+
+
+# We Need To Go Deeper Part II
+Challenge Description
+------
+Once again, there is more than meets the eye with one of the challenges. Look around for things trying to hide in plain sight, you might find something worth your while.
+
+Hints
+------
+```
+One of the previously solved challenges contains this key. ANY one of them.
+```
+
+Solution
+------
+This challenge is another extension of [this challenge](https://github.com/hat-im/ISFCR-Stegano-Writeups/tree/master/Can%20You%20Read%20Me) and also [this one](https://github.com/hat-im/ISFCR-Stegano-Writeups/tree/master/We%20Need%20To%20Go%20Deeper%20Part%20I)
+
+After extracting the [hidden file]() from the audio track, we go through the file to find that two different fonts are being used in the text. We simply concatinate all the text in Courier New font and that forms the string: BIPWNMKSRTFJDHP (in uppercase).
+
+Placing the letters inside the ctf{} gives us the flag, **ctf{BIPWNMKSRTFJDHP}**.
+
+
+# Welcome To Stego
+
+Challenge Description
+------
+The easiest Steganography challenge you can Google
+
+Solution
+------
+Use the website [here](https://stylesuxx.github.io/steganography/) or any image steganographer available online or offline to obtain the flag as **ctf{1195971149}**
+
+
+
+# myymonologue
+Challenge Description
+------
+weusedaspecialwayofhidingcharactersinthischallenge.findit.lookbetweenthelines.readsome[greatliterature/rambling](https://github.com/hat-im/ISFCR-Stegano-Writeups/blob/master/mymonologue/monologue.txt)
+
+Hints
+------
+How many characters does this file contain?
+
+Solution
+------
+
+On looking into the file, we observe that unprintable, zero-width characters are present between the characters. On counting the number of characters between each letter and decoding their ASCII values to text, we get the flag: **CTF{burningbright}**
+
