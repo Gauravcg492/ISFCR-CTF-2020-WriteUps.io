@@ -5,7 +5,7 @@
 
 * The challenge asks you to Help Lebron.
 * Navigate to the help button in the website beneath a set of quotes by lebron
-	<img src = "./Files/Lebron.jpg" alt = "Web Page"/>
+	<img src = "./Files/Lebron.png" alt = "Web Page"/>
 * Click the Help button.
 * Intercept the request being sent through Burpsuite or by observing the network tab on the browser.
 * You may use postman or curl (Any similar tools) to make a request to the webserver.
@@ -16,25 +16,35 @@
 	<img src = "./Files/LebFlag.png" alt = "Flag"/>
 
 ---
-## Nadal
-
-* 
----
-
 
 ## Elliot Alderson
 
 * The Challenge asks you to befriend Elliot Alderson.
 * Once you click the green tick.You will be directed to the below page :
-	<img src = "./Files/"/>
+	<img src = "./Files/Elliot.png" alt = "Elliot Challenge"/>
 * A classic reference to Mister Robot (TV series).
-* Based on the
+* Based on the reference you may navigate to the robots.txt page of the website.
+	<img src = "./Files/Robot.png" alt = "Robots.txt"/>
+* By navigating to the  /.elli0t_fl4g end point you will see some text.
+	<img src = "./Files/ElliotFlag.png" alt = "Elliot Flag "/>
+* The given text is a JWT token.It can be identified by the three dots injeced inbetween the text.
+* Use a JWT online decoder to get the flag.
+	<img src = "./Files/JWT.png" alt = "JWT decoder Output"/>
+* The given flag field is not of the form CTF{}.
+* By noticing the '=' symbol at the end.You man understand that it is base64 encoded.
+* Decoding the base64 flag will give you the right flag.
+	<img src = "./Files/B64.png" alt = "Base64 decoded Flag"/>
+
 ---
 
 ## Messi
 
 ---
 
+## Nadal
+
+ 
+---
 ## Restricted Entry
 
 ### Challenge Description
