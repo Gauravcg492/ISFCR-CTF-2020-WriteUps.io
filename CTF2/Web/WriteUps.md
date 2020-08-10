@@ -69,10 +69,10 @@
 	* This error was corrected immediately in the form a hint stating the request types as well as where the request had to be sent.
 * Based on the last two lines it can be inferred that multiple request have to be sent to the webserver with appropriate language headers.
 * Since the country has been mentioned it is country specific.
-	<img src="req1.png"/> 
-	<img src="req2.png"/> 
-	<img src="req3.png"/> 
-	<img src="req4.png"/> 
+	<img src="./Files/req1.png"/> 
+	<img src="./Files/req2.png"/> 
+	<img src="./Files/req3.png"/> 
+	<img src="./Files/req4.png"/> 
 * Combining all the recieved bits of the flag in the order mentioned by Nadal will generate the flag.
  
 ---
