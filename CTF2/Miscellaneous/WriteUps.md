@@ -174,7 +174,6 @@ There's something with this image... but which does not appear, just passes by..
 + Extracting it using 7z would give us two text files. One of them has a fake flag(FileA), while the other one has the actual flag(FileB)
 + Solution
 ```bash
-#!/bin/bash
 binwalk img.jfif
 7z e img.jfif
 ```
