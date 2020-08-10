@@ -10,7 +10,7 @@ Please don't take this meme too seriously, there are other things to consider he
 exiftool way.gif
 ```
 one would find some numbers at the "Comments" part in the Format: UTF-16
-+ Converting it from UTF-16->UTF-8->To Text would do the trick.
++ Converting it from UTF-16->UTF-8->To Text would do the trick. The decoded text is actually a link, containing a downloadable image which has the flag.
 + Flag:
 ```
 CTF{1'm_4_hum4n_l1k3_y0u}
