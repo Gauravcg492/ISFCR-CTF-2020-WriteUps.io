@@ -162,3 +162,23 @@ Solution
 Decrypt from Brainf*ck to text and run code in play.golang.org
 
 Flag: CTF{Br41Nf*Ck_1s_R3alLy_W31rD}
+
+---
+
+## After a long time
+```
+There's something with this image... but which does not appear, just passes by..
+```
+
++ binwalk on the file would show that it has 7z archive data with it.
++ Extracting it using 7z would give us two text files. One of them has a fake flag(FileA), while the other one has the actual flag(FileB)
++ Solution
+```bash
+binwalk img.jfif
+7z e img.jfif
+```
++ Note: Format had to be changed(enclosed within CTF{} and not flag{})
++ Flag:
+```
+CTF{alright_you_have_taken_too_much_time}
+```
