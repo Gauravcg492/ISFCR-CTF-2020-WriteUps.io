@@ -216,7 +216,7 @@ Solution
 The key to this challenge is to take the pixels from a 25000x10 image into a 500x500 image. 
 Using a python script such as the one [here](https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/resizer.py), we get the final image as
 
-<img src = "https://github.com/sivagirish81/ISFCR-CTF-2020-WriteUps.io/blob/master/CTF2/Steganography/files/random.png" alt = "Final Solution"/>
+<img src = "./files/random.png" alt = "Final Solution"/>
 
 Giving us the flag, **ctf{84512}**
 
