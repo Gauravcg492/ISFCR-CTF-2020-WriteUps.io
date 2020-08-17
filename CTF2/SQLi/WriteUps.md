@@ -54,6 +54,7 @@ let uname = req.body.username;
 		password: pass 
 	}
 ```
+
 ### Challenge 3 - User Login
 Follow steps 1-3 from above  
 + Intercept the request and change the payload to: ```{"username":{"$gt": ""},"password":{"$ne": 1}}```
