@@ -44,7 +44,16 @@ When this is entered in the "username" field, the rest of the query gets comment
 3. Login using any credentials
 4. Intercept the request and change the payload to: ```{"username":"admin","password":{"$ne": 1}}```
 + Flag: ctf{l0L+sO+r@nd0m}
-
++ The query in the code was:
+``` python
+let uname = req.body.username;
+	let pass = req.body.password;
+	console.log("Login request " + req.body);
+	let query = { 
+		username: uname,
+		password: pass 
+	}
+```
 ### Challenge 3 - User Login
 Follow steps 1-3 from above  
 + Intercept the request and change the payload to: ```{"username":{"$gt": ""},"password":{"$ne": 1}}```
