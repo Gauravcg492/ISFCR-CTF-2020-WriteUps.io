@@ -65,6 +65,47 @@ Flag: `CTF{1_Se3_y0u}`
 
 ---
 
+Challenge 4
+-----------
+
+The zip folder contains Bob's monthly bills. The flag is hidden in one of the bills, enclosed within the braces of CTF{}
+[File](Files/bills.zip)
+
+Points: 150
+
+Solution
+--------
+
+Combine the usage of `find` and `grep` tools. `find` allows you to search for files within directories, `grep` allows you to search for texts within files. 
+You should try checking within the bills of every month, but january itself has the flag. 
+```
+find . -name '*january*' -exec grep -H "CTF" {}
+```
+
+Flag: `CTF{m1!!!0nAir3}`
+
+---
+
+Challenge 5
+-----------
+
+The flag is hidden in this file. It is enclosed within ctf{}
+[File](Files/HaveFun)
+
+Points: 150
+
+Solution
+--------
+
+Construct a regex starting with "ctf{" , containing anything in the middle and ending with "}"
+```
+grep -o "ctf{.*}" HaveFun 
+```
+
+Flag: `ctf{day."Asyouknow,NorthK@}`
+
+---
+
 Challenge 6
 -----------
 
